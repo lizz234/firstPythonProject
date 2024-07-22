@@ -22,18 +22,19 @@
 # print(result)
 
 
-# def sayHi():
-#     print("Hello User")
-#
-# def cube(num):
-#     return num*num*num
-#
-# print(cube(3))
+def sayHi():
+    print("Hello User")
+
+def cube(num):
+    return num*num*num
+
+print(cube(3))
 
 
 
 is_male = False
 is_tall = True
+
 
 if is_male and not(is_tall):
     print("You are a short male")
